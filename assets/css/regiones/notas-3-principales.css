@@ -1,0 +1,86 @@
+section.notas-3-principales {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+  grid-template-columns: 60% auto;
+}
+section.notas-3-principales article:hover .volanta {
+  /* transform: translate(-50%, -30%); */
+  transform: translate(-50%, -30%) rotate(15deg);
+}
+section.notas-3-principales article:nth-child(1) {
+  grid-row: 1 / span 2;
+}
+section.notas-3-principales article:nth-child(1) .volanta span {
+  font-size: 13px;
+}
+section.notas-3-principales article:nth-child(1) picture {
+  height: 60%;
+}
+section.notas-3-principales article:nth-child(1) .data h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+section.notas-3-principales article:nth-child(1) .data p {
+  font-size: 20px;
+}
+
+section.notas-3-principales article {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px #00000238;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+section.notas-3-principales article .volanta {
+  position:absolute;
+  background-color: rgb(255, 249, 86);
+  box-shadow: 2px 2px 0px rgb(255, 73, 73);
+  justify-content: center;
+  align-items: center;
+  padding: 3px 3px;
+  transition: 0.5s;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+section.notas-3-principales article .volanta span {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+  }
+
+section.notas-3-principales article picture {
+  margin: 0;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  border-top: 3px solid;
+  justify-content: flex-start;
+}
+section.notas-3-principales article picture iframe{
+  width: 100%;
+}
+section.notas-3-principales article.internacionales picture {
+  border-color: var(--internacionales);
+}
+section.notas-3-principales article.mujer picture {
+  border-color: var(--mujer);
+}
+section.notas-3-principales article.sindicales picture {
+  border-color: var(--sindicales);
+}
+section.notas-3-principales article picture img {
+  width: 100%;
+  height: auto;
+}
+section.notas-3-principales article .data {
+  padding: 5px 10px;
+}
+section.notas-3-principales article .data h3 {
+  margin: 10px 0 5px 0;
+}
+section.notas-3-principales article .data p {
+  margin: 0 0 10px 0;
+}

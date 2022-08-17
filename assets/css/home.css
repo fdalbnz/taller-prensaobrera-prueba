@@ -1,0 +1,32 @@
+.banners {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.banners img {
+    max-width: 100%;
+}
+.bannerynotas {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 10px;    
+}
+
+.bannerynotas img {
+    width: 100%;
+}
+.gradient img {
+background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,86,49,1) 48%, rgba(252,176,69,1) 100%);
+}
+
+.titulo {
+    font-family: acuta, serif;
+    font-weight: 200px;
+    font-style: normal;
+    src: url("https://use.typekit.net/uak2kqw.css");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    text-align: center;
+    font-size: 45px;
+    
+}
