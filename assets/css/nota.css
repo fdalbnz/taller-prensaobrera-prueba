@@ -1,16 +1,99 @@
 .container-nota {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 500px;
+}
+.header-nota .seccion-fecha {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin-top: 0;
+    margin-bottom: 0%;
+    border-bottom: 1px solid var(--politicas);
+}
+.header-nota .seccion-fecha h3 {
+    color: var(--politicas);
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 26px;
+    grid-column: span 9;
+}
+.header-nota .seccion-fecha p {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 16px;
+    grid-column: span 9;
+    justify-content: flex-end;
+    display: flex;
+}
+.header-nota .seccion-fecha .fecha {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-weight: 400;
+    grid-column: span 3;
+}
+.header-nota .titulo {
+    gap: 10px;
+    border-bottom: 1px solid rgb(166, 166, 166);
+    padding: 6px ;
+}
+.container-nota article {
+    grid-column: span 9;
+    background-color: rgb(255, 255, 255);
+}
+.container-nota aside {
+    grid-column: span 3;
+    background-color: rgb(255, 255, 255);
+}
+.header-nota .volanta h3 { 
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container-nota .titulo h1 { 
+    grid-column: span 9;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container-nota .titulo p { 
+    grid-column: span 9;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+
+.header-nota  article .content-nota {
+    display: grid;
     gap: 10px;
 }
-.container-nota  article {
-    grid-column: span 9;
-    background-color: #444;
+.container-autor {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin-top: 15px;
 }
-.container-nota  aside {
+.container-autor .user-avatar img {
+    border-radius: 50%;
     grid-column: span 3;
-    background-color: rgb(108, 108, 108);
 }
-.container-nota  article .content-nota {}
-.container-nota  article .footer-nota {}
+.container-autor .user-container {
+    grid-column: span 3;
+}
+.header-nota  article .content-nota {
+    margin-top:100px;
+}
+.header-nota  article .content-nota picture img{
+    margin-top: 50px ;
+}
+
+.container-nota .data h3 { 
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-nota  article .footer-nota {}

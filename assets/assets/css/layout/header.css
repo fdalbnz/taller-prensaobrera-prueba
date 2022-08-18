@@ -1,0 +1,12 @@
+.container-nota  seccion-fecha {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.container-nota  seccion-fecha h1 { 
+    grid-column: span 9;
+}
+
+.container-nota  seccion-fecha h3 { 
+    grid-column: span 9;
+}
