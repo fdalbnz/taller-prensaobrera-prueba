@@ -1,0 +1,16 @@
+.container-nota {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 500px;
+    gap: 10px;
+}
+.container-nota  article {
+    grid-column: span 9;
+    background-color: #444;
+}
+.container-nota  aside {
+    grid-column: span 3;
+    background-color: rgb(108, 108, 108);
+}
+.container-nota  article .content-nota {}
+.container-nota  article .footer-nota {}
